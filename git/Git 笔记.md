@@ -204,7 +204,9 @@ doc/**/*.pdf
 
 ### Git Revert cherry-pick
 
-待续
+1. `git revert <commit-hash>` 可以撤銷指定提交的修改，而不修改到歷史提交。
+
+2. `git cherry-pick <commit-hash>` 可以直接套用指定的提交至當前的分支。
 
 ## 七、最佳实践
 
